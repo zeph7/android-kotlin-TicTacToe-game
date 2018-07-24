@@ -19,8 +19,8 @@ Here, I have build a Tic Tac Toe game app in Android Studio using Kotlin support
     CLICK on the Zeph Games ImageView - > it will animate with a clockwise rotation
     
 So its a fun game!! I worked on this project so as to get started to build real life app games and also to get
-more attached to Android Development and kotlin language as well!!
-Here, I also modified some of animation styles according to my interest.
+more attached with Android Development and kotlin language as well!!
+Here, I also modified some of the animation styles according to my interest.
 Hope to get more and more Android Development out of me in future!!
 
 
