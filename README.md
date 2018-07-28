@@ -13,7 +13,7 @@ Here, I have build a Tic Tac Toe game app in Android Studio using Kotlin support
         * The third activity is single player mode to play against an algorithm
         * The fourth activity is the multiplayer mode for two players
 
-    CLICK on Single Player Button -> to jump to the single palyer activity
+    CLICK on Single Player Button -> to jump to the single player activity
     CLICK on Multiplayer Button -> to jump to the multiplayer activity
     CLICK on Add Tic Tac Toe ImageView -> it will amimate with a blink
     CLICK on the Zeph Games ImageView - > it will animate with a clockwise rotation
