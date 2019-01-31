@@ -1,5 +1,5 @@
 # Tic Tac Toe 
-![](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/blob/master/screenshots/icon.ico)
+![](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/blob/master/screenshots/tac.png)
 
 Build a Tic Tac Toe android app with kotlin support
 
