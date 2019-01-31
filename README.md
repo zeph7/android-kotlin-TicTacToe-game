@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/github/license/ashish7zeph/android-kotlin-TicTacToe-game.svg?style=for-the-badge)](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/blob/master/LICENSE)
 [![Github contributors](https://img.shields.io/github/contributors/ashish7zeph/android-kotlin-TicTacToe-game.svg?style=for-the-badge)](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/graphs/contributors)
+[![Language max %](https://img.shields.io/github/languages/top/ashish7zeph/android-kotlin-TicTacToe-game.svg?colorB=orange&style=for-the-badge)](https://kotlinlang.org/)
 
 [![build for android](https://forthebadge.com/images/badges/built-for-android.svg)](https://www.android.com/)
 
@@ -37,6 +38,7 @@ Its a fun game!!
 5. Install the apk
 
 The app is finally installed on your Android mobile device !!
+To directly download the apk visit the [link](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/tree/master/apk)
 
  # Screenshots:
 
@@ -46,7 +48,7 @@ The app is finally installed on your Android mobile device !!
 <img alt="App image" src="screenshots/img3.jpg" width="30%" hspace="10">
 </div>
 
-# Kotlin Android Activity
+## Kotlin Android Activity
 
 Kotlin code of the splash screen activity in this project is shown below. For kotlin code of other activities visit the [link](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/tree/master/app/src/main/java/com/zeph7/tictactoe)
 
