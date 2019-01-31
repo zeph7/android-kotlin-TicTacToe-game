@@ -1,56 +1,85 @@
-# Tic Tac Toe
+# Tic Tac Toe app
 
 [![License](https://img.shields.io/github/license/ashish7zeph/android-kotlin-TicTacToe-game.svg?style=for-the-badge)](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/blob/master/LICENSE)
 [![Github contributors](https://img.shields.io/github/contributors/ashish7zeph/android-kotlin-TicTacToe-game.svg?style=for-the-badge)](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/graphs/contributors)
 
 [![build for android](https://forthebadge.com/images/badges/built-for-android.svg)](https://www.android.com/)
 
+## Overview
+
 Build a Tic Tac Toe android app with kotlin support
 
+It is the regular Tic Tac Toe game with two gameplay modes `Multiplayer` for two players and another `Single Player` for one player playing against a computer algorithm
 
-# Overview
+Its a fun game!!
 
-Here, I have build a Tic Tac Toe game app in Android Studio using Kotlin support.
+## Features
 
-    This project contain four activities:
-        * The first activity is a splash screen that appears for 3000 milliseconds
-        * The second activity is the main activity and where to select single or multiplayer mode
-        * The third activity is single player mode to play against an algorithm
-        * The fourth activity is the multiplayer mode for two players
+* Single player mode
+* Multi player mode
+* Splash screen
+* Animation styles
+* Minimal Design
+* Simplified Theme
+* Responsive BackPress
 
-    CLICK on Single Player Button -> to jump to the single player activity
-    CLICK on Multiplayer Button -> to jump to the multiplayer activity
-    CLICK on Add Tic Tac Toe ImageView -> it will amimate with a blink
-    CLICK on the Zeph Games ImageView - > it will animate with a clockwise rotation
-    
-So its a fun game!! I worked on this project so as to get started to build real life app games and also to get
-more attached with Android Development and kotlin language as well!!
-Here, I also modified some of the animation styles according to my interest.
-Hope to get more and more Android Development out of me in future!!
-
-
-
-# apk link
-
-[Tic Tac Toe - apk](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/blob/master/apk/Tic%20Tac%20Toe.apk)
-
-
-# Design
-
-### Splash Screen
-![](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/blob/master/screenshots/img1.png)
-
-### Main Activity
-![](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/blob/master/screenshots/img2.png)
-
-### Gameplay Activity
-![](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/blob/master/screenshots/img3.png)
-
-
-# Platform
+## Platform
         -> Android Studio
         -> With Kotlin Support
 
-# Licence
+## Instructions
 
-Licensed under the [MIT License](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/blob/master/LICENSE)
+1. Clone or download the repo: `https://github.com/ashish7zeph/android-kotlin-TicTacToe-game`
+2. Navigate to the folder `android-kotlin-TicTacToe-game`
+3. Navigate to the folder `android-kotlin-TicTacToe-game/app/src/` to access developers content
+3. Navigate to the folder `apk` for users to access apk
+4. Copy the apk from folder `apk` to an android phone
+5. Install the apk
+
+The app is finally installed on your Android mobile device !!
+
+ # Screenshots:
+
+<div style="display:flex;">
+<img alt="App image" src="screenshots/img1.jpg" width="30%" hspace="10">
+<img alt="App image" src="screenshots/img2.jpg" width="30%" hspace="10">
+<img alt="App image" src="screenshots/img3.jpg" width="30%" hspace="10">
+</div>
+
+# Kotlin Android Activity
+
+Kotlin code of the splash screen activity in this project is shown below. For kotlin code of other activities visit the [link](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/tree/master/app/src/main/java/com/zeph7/tictactoe)
+
+```kotlin
+    package com.zeph7.tictactoe
+
+    import android.content.Intent
+    import android.support.v7.app.AppCompatActivity
+    import android.os.Bundle
+    import android.os.Handler
+    import android.view.Window
+    import android.view.WindowManager
+    import android.view.animation.AnimationUtils
+    import kotlinx.android.synthetic.main.activity_splash.*
+
+    class SplashActivity : AppCompatActivity() {
+
+        override fun onCreate(savedInstanceState: Bundle?) {
+            super.onCreate(savedInstanceState)
+
+            window.requestFeature(Window.FEATURE_NO_TITLE)
+
+            window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                    WindowManager.LayoutParams.FLAG_FULLSCREEN)
+
+            setContentView(R.layout.activity_splash)
+
+            val anim = AnimationUtils.loadAnimation(applicationContext, R.anim.zoom)
+            imageViewLogo.startAnimation(anim)
+
+            Handler().postDelayed({
+                startActivity(Intent(this@SplashActivity, MainActivity::class.java))
+            }, 5000)
+        }
+    }
+```
