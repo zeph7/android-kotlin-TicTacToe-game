@@ -1,5 +1,9 @@
-# Tic Tac Toe 
-![](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/blob/master/screenshots/tac.png)
+# Tic Tac Toe
+
+[![License](https://img.shields.io/github/license/ashish7zeph/android-kotlin-TicTacToe-game.svg?style=for-the-badge)](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/blob/master/LICENSE)
+[![Github contributors](https://img.shields.io/github/contributors/ashish7zeph/android-kotlin-TicTacToe-game.svg?style=for-the-badge)](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/graphs/contributors)
+
+[![build for android](https://forthebadge.com/images/badges/built-for-android.svg)](https://www.android.com/)
 
 Build a Tic Tac Toe android app with kotlin support
 
@@ -49,4 +53,4 @@ Hope to get more and more Android Development out of me in future!!
 
 # Licence
 
-Licensed under the MIT License
+Licensed under the [MIT License](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/blob/master/LICENSE)
