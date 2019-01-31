@@ -1,9 +1,10 @@
-# android-kotlin-tic-tac-toe-game
+# Tic Tac Toe 
+![](https://github.com/ashish7zeph/android-kotlin-TicTacToe-game/blob/master/screenshots/icon.ico)
 
 Build a Tic Tac Toe android app with kotlin support
 
 
-# About
+# Overview
 
 Here, I have build a Tic Tac Toe game app in Android Studio using Kotlin support.
 
